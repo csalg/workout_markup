@@ -1,7 +1,46 @@
 import re
 from datetime import datetime
-
+from dataclasses import dataclass, asdict
 match_number = re.compile('[0-9]')
+
+@dataclass
+class Session:
+    name: str
+    date: datetime
+    units: Unit
+    comments: str = ""
+    
+    def to_dict(self):
+        return asdict(self)
+
+
+@dataclass
+class Unit:
+    name: str
+    exercises: list
+    comments: str = ""
+
+
+@dataclass
+class Exercise:
+    name: str
+    work: Work
+    resistances: list 
+
+
+@dataclass
+class Measurable:
+    value: int
+    unit: str
+
+
+class Resistance(Measurable):
+    pass
+
+
+class Work(Measurable):
+    pass
+        
 
 def parse_session(session_as_string):
     workout_lines = session_as_string.splitlines()

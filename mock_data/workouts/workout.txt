@@ -1,0 +1,60 @@
+20200531 Lower 1
+Lower 1
+## The first line must be the title of the workout.
+## Comments which start with ## will not be logged and can be used
+## for instructions
+# Comments that start with a single # will be logged. This comment
+# will be logged under the session.
+@ on mondays
+## Use @ to write directives. The 'on' directive creates a new instance of the template file each week dated for the next monday.
+
+
+++ A
+## ++ Precedes the section name. In this case an EDT circuit.
+## Can be performed at beginning or end of workout
+## Perform as many sets in 15 minutes of:
+# This is a comment of the unit.
+
++ Reverse flies
+## A + precedes an exercise name
+10 12b
+## Results are logged directly after the name of an exercise.
+12 12b
+8 12b
++ Chest flies
+12 10t 15t
+## Resistance can be stacked
+12 20t
+12 20t 10t
++ Pulldown
+12 30t
+12 30t 10t
+12 31t
+
+++ B
+## Pullup and pushup technique work
++ Pullup hangs
+20s 80
+## Time will be recognised automatically from number+{s,m,h}.
+## Use weight in kilos to refer to bodyweight
++ Pushup planche
+30s 80
++ Pullup holds on top
+20s 80
++ Pushup bottom holds
+20s 80
++ Pullup negatives
+5 80
+
+++ C
+## Pullups and pushups
++ Pullups
+3 80
+2 80
++ Pushups
+5 80
+4 80
+
+++ D
++ Triceps extension
++ Curls
