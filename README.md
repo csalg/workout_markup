@@ -23,13 +23,11 @@ Core 1
 + Hollow hold
 
 ++ B
-## EDT set. 10 mins.
 + Good morning
 + Sledgehammer swings
 + Pallof press
 
 ++ C
-## EDT set. 10 mins.
 + Sprints
 ```
 
