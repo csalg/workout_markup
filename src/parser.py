@@ -1,6 +1,8 @@
 import re
 from datetime import datetime
 
+match_number = re.compile('[0-9]')
+
 def parse_session(session_as_string):
     workout_lines = session_as_string.splitlines()
     session_name = workout_lines[1]
@@ -81,10 +83,7 @@ def parse_exercise(exercise_name, line):
     except:
         print('Parsing failed')
         print(line)
-    
 
-
-match_number = re.compile('[0-9]')
 
 def parse_work(work_string):
     
