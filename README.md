@@ -42,14 +42,11 @@ To log a training session is very easy, we just have to modify the template with
 
 ```
 + Reverse flies
-## A + precedes an exercise name
 10 12b
-## Results are logged directly after the name of an exercise.
 12 12b
 8 12b
 + Chest flies
 12 10t 15t
-## Resistance can be stacked
 12 20t
 12 20t 10t
 + Pulldown
@@ -58,7 +55,7 @@ To log a training session is very easy, we just have to modify the template with
 12 31t
 ```
 
-We log a completed exercise just by writing <work> <resistance 1> <resistance 2>... <resistance n>.
+We log a completed exercise just by writing `<work> <resistance 1> <resistance 2>... <resistance n>`.
 Work can be a number: `12`, in which case we are referring to the number of reps. Or it can be the number of seconds something is performed for, e.g. `40s`.
 Resistance is a similar thing. I work with free weights, **r**esistance bands and **t**ubes. Simply writing a number, like `50` will be interpretted as kilos. Writing an `b` or a `t` after it will be interpretted as resistance bands or tubes (the numbers are the milimiters width int he case of bands and the pounds claimed by the manufacturer in the case of tubes).
 
