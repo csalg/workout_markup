@@ -1,0 +1,27 @@
+resistances:
+  - name: tubes
+    resistances:
+      - value: 10
+        color: yellow
+      - value: 15
+        color: red
+      - value: 20
+        color: purple
+      - value: 25
+        color: green
+      - value: 30
+        color: black
+  - name: bands
+    resistances:
+      - value: 6
+        color: red
+      - value: 12
+        color: red
+      - value: 20
+        color: blue
+      - value: 31
+        color: orange
+      - value: 43
+        color: blue
+      - value: 60
+        color: grey

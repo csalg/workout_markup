@@ -1,0 +1,31 @@
+units:
+  - name: A
+    duration: 10min
+    exercises:
+    - name: Reverse flies
+      workload:
+        - 6
+        - 12
+      resistance: 
+        - tubes
+    - name: Chest flies
+      workload:
+        - 6
+        - 12
+      resistance: 
+        - tubes
+  - name: B
+    duration: 10min
+    exercises:
+    - name: Reverse flies
+      workload:
+        - 6
+        - 12
+      resistance: 
+        - tubes
+    - name: Chest flies
+      workload:
+        - 6
+        - 12
+      resistance: 
+        - tubes
